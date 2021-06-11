@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!--
+	Name: Laura Welfley
+	Date Created: May 24, 2021
+	Most recent revision:
+-->
+<html lang="en">
+	<head>
+		<title>Contact Me</title>
+	<link href="styles/main.css" rel="stylesheet" type="text/css" />
+		<style>
+		label, fieldset{ font-size: 1.1em;
+		}
+		input[type=text] { 
+		border: 2px solid; 
+		width: 50%; 
+		padding: 8px 8px; 
+		margin: 12px 0; 
+		box-sizing: border-box; 
+		font-size: 1.1em;
+		}
+		fieldset { 
+		background-color: #fef9ff; 
+		width: 100%; 
+		padding: 12px 20px; 
+		margin: 12px 0; 
+		box-sizing:	border-box;
+		}
+		select, textarea { 
+		margin: 12px 0; 
+		font-size: 1em;
+		}
+		input[type=submit] { 
+		font-size: 1.2em; 
+		background-color: #546a7b; 
+		color: #fef9ff; 
+		padding: 4px 8px;
+		}
+		input[type=submit]:hover { 
+		background-color: #f2eded; 
+		color: #546a7b;
+		}
+		textarea { 
+		width: 100%; 
+		height: 200px; 
+		padding: 12px 20px; 
+		margin: 12px 0; 
+		box-sizing: border-box; 
+		border: 2px solid #0d1f2d; 
+		border-radius: 3px; 
+		background-color: #fff; 
+		resize: none;}	
+		</style>
+	</head>
+	
+	<body>
+		<header>
+			<h1>Contact Me</h1>
+			<hr />
+		</header>
+		
+		<nav>
+		<p> click the picture for a link to the homepage</p>
+		<p>
+		<a href="index.html"><img src="images/cat.jpg" alt="link to homepage" style="border: thin black line; width:50%;" />
+		</a></p>
+		</nav>
+		
+		<p><h2>Information Request</h2>
+		<form action="contact.html" method= "POST">
+			First Name <input type="text" name="First Name" /> <br /> Last Name <input type="text" name="Last Name" /><br />
+			Phone Number <input type="text" name="Number" /> <br />
+			I am interested in: <br />
+			<input type="checkbox" name="myChoices" value="Front-End Web Development" />Front-End Web Development <br />
+			<input type="checkbox" name="myChoices" value="Back-End Web Development" /> Back-End Web Development <br />
+			<input type="checkbox" name="myChoices" value="Database Design" /> Database Design <br />
+			
+		</form>
+		</P>
+		
+		
+		<footer>
+		
+		</footer>
+		
+	</body>
+</html>
